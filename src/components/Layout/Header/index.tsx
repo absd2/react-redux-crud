@@ -1,9 +1,14 @@
-import { Container, ContainerProps } from "./styles";
+import { Container } from "./styles";
+import { Typography } from "@mui/joy";
 
-export interface HeaderProps extends ContainerProps {}
-
-function Header({}: HeaderProps) {
-  return <Container></Container>;
+function Header() {
+  return (
+    <Container>
+      <Typography textColor="white" level="h1">
+        React Redux CRUD
+      </Typography>
+    </Container>
+  );
 }
 
 export default Header;

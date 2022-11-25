@@ -6,7 +6,9 @@ function App() {
   return (
     <Layout.Base>
       <Layout.Header />
-      <Button variant="soft">Click me!</Button>
+      <Layout.Content>
+        <Button variant="soft">Click me!</Button>
+      </Layout.Content>
     </Layout.Base>
   );
 }
